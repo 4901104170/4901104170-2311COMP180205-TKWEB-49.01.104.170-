@@ -1,0 +1,116 @@
+#shark{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name: shark;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+  
+}
+
+  #diver2{
+    left:10px;top:700px;
+    position:absolute;
+    animation-name: diver;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-play-state:running;}
+  #diver3{
+    left:400px;top:400px;
+    position:absolute;
+    animation-name: diver;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}  
+#diver1{
+    right:10px;top:400px;
+    position:absolute;
+    animation-name: divermới;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#faintSchool{
+    left:auto;top:400px;
+    position:absolute;
+    animation-name: ngang;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;   
+}
+#turtle{
+    left:100px;top:900px;
+    position:absolute;
+    animation-name: turtle;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#goldFishSchool{
+    left:100px;top:400px;
+    position:absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@keyframes turtle{
+    0% {left: 0px; top: 100px; transform: scaleX(1);}
+    30% {left: 600px; top: 200px;transform: scaleX(1);}
+    50% {left: 1000px; top: 500px;transform: scaleX(1);}
+    60% {left: 1001px; top: 600px;transform: scaleX(-1);}
+    80% {left: 400px; top: 500px;transform: scaleX(-1);}
+    90% {left: 1px; top: 200px;transform: scaleX(-1);}
+    100% {left: 0px; top: 100px;transform: scaleX(1);}
+
+}
+@keyframes diver{
+    0% {top:0px;bottom:100%;}
+    20% {top:50%;bottom:100%;}
+    40% {top:100%;bottom:100%;}
+    60% {top:50%;bottom:100%;}
+    80% {top:20%;bottom:100%;}
+    100% {top:0px;bottom:100%;}
+
+}
+@keyframes divermới{
+    0% {top:200px;bottom:100%;}
+    20% {top:50%;bottom:100%;}
+    40% {top:100%;bottom:100%;}
+    60% {top:50%;bottom:100%;}
+    80% {top:20%;bottom:100%;}
+    100% {top:0px;bottom:100%;}
+
+}
+
+@keyframes shark{
+   
+    0% {left: 0px; top: 300px; transform: scaleX(1);}
+    20% {left: 400px; top: 400px;transform: scaleX(1);}
+    40% {left: 600px; top: 300px;transform: scaleX(1);}
+    60% {left: 1000px; top: 200px;transform: scaleX(1);}
+    70% {left: 1200px; top: 100px;transform: scaleX(-1);}
+    80% {left: 950px; top: 200px;transform: scaleX(-1);}
+    90% {left: 200px; top: 300px;transform: scaleX(-1);}
+    100% {left: 0px; top: 400px;transform: scaleX(-1);}
+}
+@keyframes ngang{
+    0%  {left: 100px; top: 400px;}
+    20%  {left: 300px; top: 400px;}
+    40%  {left: 500px; top: 300px;}
+    50%  {left: 100%; top: 50px;}
+    60% {left: 500px; top: 100px;}
+    80%  {left: 300px; top: 200px;}
+    100%  {left: 100px; top: 400px; transform:scaleX(-2);}
+}
